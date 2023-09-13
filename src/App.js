@@ -1,5 +1,5 @@
 import "./styles.css";
-import data from "../data/sample_news_stories.json";
+import data from "./sample_news_stories.json";
 const stories = data.results;
 
 export default function App() {
