@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "keywords": [],
+  "homepage": "https://jnip2.github.io/comp3170-newsstory",
   "main": "src/index.js",
   "dependencies": {
     "loader-utils": "3.2.1",
