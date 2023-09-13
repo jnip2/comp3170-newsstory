@@ -1,0 +1,35 @@
+.contentContainer {
+  display: flex;
+  font-family: sans-serif;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.storiesContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.storyContainer {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-column-gap: 25px;
+}
+
+.imgContainer img {
+  height: 250px;
+  width: 300px;
+  object-fit: cover;
+}
+
+.imgContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.storyText {
+  width: 520px;
+}
