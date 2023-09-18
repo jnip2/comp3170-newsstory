@@ -12,18 +12,21 @@ export default function App() {
           creator={stories[0].creator}
           description={stories[0].description}
           img={stories[0].image_url}
+          link={stories[0].link}
         />
         <Story
           title={stories[1].title}
           creator={stories[1].creator}
           description={stories[1].description}
           img={stories[1].image_url}
+          link={stories[1].link}
         />
         <Story
           title={stories[2].title}
           creator={stories[2].creator}
           description={stories[2].description}
           img={stories[2].image_url}
+          link={stories[2].link}
         />
         <Story
           title={stories[3].title}
@@ -31,6 +34,7 @@ export default function App() {
           description={stories[3].description}
           full_description={stories[3].full_description}
           img={stories[3].image_url}
+          link={stories[3].link}
         />
       </div>
     </div>
@@ -59,7 +63,7 @@ function Story(props) {
         <img src={images} alt="" />
       </div>
       <div className="storyText">
-        <h2>{props.title}</h2>
+        <a href={props.link}>{props.title}</a>
         <h3>{props.creator}</h3>
         <p>{desc}</p>
       </div>
